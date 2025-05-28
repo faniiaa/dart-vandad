@@ -8,7 +8,7 @@ void main(List<String> args) {
 
   print(ageList.any((age) => age == 25));
 
-  final mySet = {20, 20, 22, 23, 24, 25};
+  final mySet = {20, 9, 22, 23, 24, 25};
   print(mySet);
 
   var ageList2 = ageList

@@ -75,7 +75,6 @@ print(mymap.values);
 mymap.forEach((avali, value) {
   print("${avali.length.isEven}: ${value}");
 });
-var value = true.toString();
 const Set<int> myset = {1,2,3};
 print(myset.length);
 

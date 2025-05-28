@@ -1,8 +1,8 @@
 void main(List<String> args) {
   String? lastName;
-  lastName ??= "Bar";
+  // lastName ??= "Bar";
   print(lastName);
-  print(lastName?.length);
+  // print(lastName?.length);
 
   int? age = null;
 
@@ -18,7 +18,7 @@ void main(List<String> args) {
   //   age2 = 0;
   // }
 
-  final age2 = (age != null) ? age + 2 : 0;
+  final age2 = (age != null) ? age + 1 : 0;
   final age3 = age ?? 0;
 
   print(age2);
