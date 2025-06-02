@@ -1,5 +1,3 @@
-import 'test3.dart';
-
 void main(List<String> arg){
   final person = Person();
   print(person.fullName);
