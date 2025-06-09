@@ -3,9 +3,12 @@ void main(List<String> args) {
     print(name);
   }
 
-  Iterable<String> getNames() sync* {
+  
+}
+
+
+Iterable<String> getNames() sync* {
     print('Prudocing Bob');
     yield 'Bob';
-    yield* templateNames();
+    //yield* templateNames();
   }
-}

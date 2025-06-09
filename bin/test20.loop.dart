@@ -19,7 +19,7 @@ void main(List<String> args){
 
   names.where((name) => name.startsWith('T')).forEach(print);
 
-  for (final name in names.where((String value) => names.startsWith('T'))){
+  for (final name in names.where((String value) => value.startsWith('T'))){
     print(name);
   }
 

@@ -1,3 +1,5 @@
+import 'package:collection/collection.dart';
+
 void main(List<String> args) {
   final numbers = [1, 2, 3, 4];
   final sum = numbers.fold(
@@ -6,12 +8,7 @@ void main(List<String> args) {
   );
   print(sum);
 
-  final names = {
-    'Foo'
-        'Tof'
-        'Foo'
-        'Tofo',
-  };
+  final names = {'Foo', 'Tof', 'Tofo'};
   names.add('Tofo');
   print(names);
 
@@ -28,8 +25,7 @@ void main(List<String> args) {
 
   print('-------------------------------');
 
-
-  final foo1 ='foo';
+  final foo1 = 'foo';
   var foo2 = 'foo';
 
   print(foo1.hashCode);
@@ -37,15 +33,12 @@ void main(List<String> args) {
 
   print('-------------------------------');
 
+  final age = {10, 20, 30};
+  final age2 = {10, 20, 30};
 
-  final age = {10,20,30};
-  final age2 = {10,20,30};
-
-  if(SetEquality().equals(age,age2)){
+  if (SetEquality().equals(age, age2)) {
     print('Ages are equal');
-  }
-  else{
+  } else {
     print('Ages are not equal');
   }
-  }
-
+}
